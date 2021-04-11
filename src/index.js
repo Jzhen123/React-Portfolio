@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
-
+import App from './App';
+import Splash from './Splash';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Splash />
   </React.StrictMode>,
   document.getElementById('root')
 );
