@@ -1,0 +1,1 @@
+My portfolio/introductory website where users will learn about who I am, what I strive to be, and what I have accomplished so far.
