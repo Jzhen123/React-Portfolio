@@ -1,17 +1,27 @@
 import React from 'react';
 import './Splash.css';
-import Yosemite from './Yosemite.jpg';
 class Splash extends React.Component {
     constructor(props) {
         super(props);
-        this.mainImage = Yosemite;
+        this.mainImage = props.mainImage;
     }
 
 
     render() {
         return (
             <>
-                <div className="main-picture" style={{ backgroundImage: `url(${this.mainImage})`}}></div> {/* Displays the passed in image */}
+                <div className="main-picture" style={{ backgroundImage: `url(${this.mainImage})` }}>
+                    <div className="text">
+                        <h1>
+                            Hey,<br></br>
+                            I'm Jimmy Zheng!
+                        </h1>
+                        <h3>
+                            Full Stack Web Developer continuously improving <br></br>
+                        to reach new heights
+                        </h3>
+                    </div>
+                </div>
             </>
         )
     }

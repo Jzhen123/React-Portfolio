@@ -4,12 +4,15 @@ import reportWebVitals from './reportWebVitals';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
-import App from './App';
+// import App from './App';
 import Splash from './Splash';
+import Yosemite from './Yosemite.jpg';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Splash />
+    <Splash 
+      mainImage={Yosemite}
+    />
   </React.StrictMode>,
   document.getElementById('root')
 );
