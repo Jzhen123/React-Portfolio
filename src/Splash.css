@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Serif+Pro&display=swap');
+
 .main-picture {
     background-color: #ffffff;
     height: 100vh;
@@ -26,7 +28,7 @@ h1 {
 h3{
     position: relative;
     color: white;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     font-style: italic;
 }
 
@@ -35,4 +37,14 @@ h3{
     top: 25%;
     width: 100%;
     text-align: center;
+}
+
+.btn {
+    font-family: "Montserrat", sans-serif;
+    font-size: .9vw;
+    padding-top: .7vw;
+    padding-bottom: .7vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    margin-top: 2vw;
 }

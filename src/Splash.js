@@ -13,13 +13,14 @@ class Splash extends React.Component {
                 <div className="main-picture" style={{ backgroundImage: `url(${this.mainImage})` }}>
                     <div className="text">
                         <h1>
-                            Hey,<br></br>
+                            Hi,<br></br>
                             I'm Jimmy Zheng!
                         </h1>
-                        <h3>
+                        <h3 className="mt-2">
                             Full Stack Web Developer continuously improving <br></br>
-                        to reach new heights
+                            to reach new heights
                         </h3>
+                        <button type="button" class="btn btn-outline-light rounded-0">About Me</button>
                     </div>
                 </div>
             </>
