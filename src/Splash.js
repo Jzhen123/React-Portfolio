@@ -10,7 +10,7 @@ class Splash extends React.Component {
     render() {
         return (
             <>
-                <div className="main-picture" style={{ backgroundImage: `url(${this.mainImage})` }}>
+                <div className="main-picture col-lg-12 col-sm-3" style={{ backgroundImage: `url(${this.mainImage})` }}>
                     <div className="text">
                         <h1>
                             Hi,<br></br>
@@ -20,8 +20,21 @@ class Splash extends React.Component {
                             Full Stack Web Developer continuously improving <br></br>
                             to reach new heights
                         </h3>
-                        <button type="button" class="btn btn-outline-light rounded-0">About Me</button>
+                        <button type="button" className="btn btn-outline-light rounded-0">About Me</button>
                     </div>
+
+
+                    <div className="text-center icon">
+                    <h3>Scroll</h3>
+                        <div class="icon-scroll">
+                            <div class="mouse">
+                                <div class="wheel"></div>
+                            </div>
+                            <div class="icon-arrows">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>s
                 </div>
             </>
         )
