@@ -7,6 +7,8 @@
     background-size: 100% 100%;
     position: relative;
     opacity: 0.88;
+    /* background: linear-gradient(to right,rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)); */
+
 }
 
 .main-picture::before {

@@ -29,7 +29,7 @@ class Splash extends React.Component {
                     <Scroll />
                 </div>
 
-                <div className="page-wrapper chiller-theme toggled">
+                {/* <div className="page-wrapper chiller-theme toggled">
                     <a id="show-sidebar" className="btn btn-sm btn-dark" href="#">
                         <i className="fas fa-bars"></i>
                     </a>
@@ -57,7 +57,7 @@ class Splash extends React.Component {
                         </div>
                     </nav>
 
-                </div>
+                </div> */}
             </>
         )
     }
