@@ -13,10 +13,12 @@ class Splash extends React.Component {
     }
 
     render() {
-        
+
         return (
             <>
-                <div id="Hero" className="main-picture" style={{ backgroundImage: `url(${this.mainImage})` }}>
+
+                <header>
+                    <img src={this.props.mainImage}></img>
 
                     <div className="text">
                         <h1>Hi,<br></br>I'm Jimmy Zheng!</h1>
@@ -27,37 +29,7 @@ class Splash extends React.Component {
                         <button type="button" onClick={this.changeScreen} className="btn btn-outline-light rounded-0">About Me</button>
                     </div>
                     <Scroll />
-                </div>
-
-                {/* <div className="page-wrapper chiller-theme toggled">
-                    <a id="show-sidebar" className="btn btn-sm btn-dark" href="#">
-                        <i className="fas fa-bars"></i>
-                    </a>
-                    <nav id="sidebar" className="sidebar-wrapper">
-                        <div className="sidebar-content">
-                            <div className="sidebar-brand">
-                                <a href="#">pro sidebar</a>
-                                <div id="close-sidebar">
-                                    <i className="fas fa-times">X</i>
-                                </div>
-                            </div>
-                            <div className="sidebar-header">
-
-                            </div>
-                            <div className="sidebar-search">
-                            </div>
-                            <div className="sidebar-menu">
-
-                            </div>
-                        </div>
-                        <div className="sidebar-footer">
-                            <a href="#">
-                                <i className="fa fa-power-off"></i>
-                            </a>
-                        </div>
-                    </nav>
-
-                </div> */}
+                </header>
             </>
         )
     }
