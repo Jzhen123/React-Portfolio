@@ -1,6 +1,7 @@
 import React from 'react';
 import './Splash.css';
 import Scroll from './Scroll';
+
 class Splash extends React.Component {
     constructor(props) {
         super(props);
@@ -16,7 +17,6 @@ class Splash extends React.Component {
 
         return (
             <>
-
                 <header>
                     <img src={this.props.mainImage}></img>
 

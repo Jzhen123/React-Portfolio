@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Serif+Pro&display=swap');
 
 header {
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(0, 0, 0, 0.85);
     width: 100vw;
     height: 100vh;
     overflow: hidden;
@@ -13,7 +13,7 @@ img{
     height: auto;
     width: 100vw;
     z-index: -1;
-    opacity: .5;
+    opacity: .45;
 }
 
 h1 {
