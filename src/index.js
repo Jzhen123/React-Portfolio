@@ -4,9 +4,8 @@ import reportWebVitals from './reportWebVitals';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
-// import App from './App';
 import Splash from './Splash';
-import Yosemite from './Yosemite.jpg';
+import Yosemite from './Yosemite.png';
 
 ReactDOM.render(
   <React.StrictMode>
