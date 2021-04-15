@@ -74,9 +74,9 @@ class Splash extends React.Component {
                     <Scroll />
                 </header>
                 {/* Below the Fold */}
-                <div id ="about">
+                <header id ="about">
                     <img src={this.props.mainImage}></img>
-                </div>
+                </header>
             </>
         )
     }
