@@ -33,7 +33,7 @@ h3{
     position: absolute;
     font-size: 4vh;
     color: white;
-    bottom:50vh;
+    top: 1vh;
     left: 1vw;
     z-index: 2;
 }

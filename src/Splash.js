@@ -8,12 +8,10 @@ class Splash extends React.Component {
         this.mainImage = props.mainImage;
     }
 
-    changeScreen() {
-        console.log("hi")
-        document.getElementById("Hero").style.background = 'linear-gradient(to right, rgba(0, 0, 0, 0.1) 10%,rgba(0, 0, 0, 0.4) 35%,rgba(0, 0, 0, .8) 50%)';
-    }
-
-
+    // changeScreen() {
+    //     console.log("hi")
+    //     document.getElementById("Hero").style.background = 'linear-gradient(to right, rgba(0, 0, 0, 0.1) 10%,rgba(0, 0, 0, 0.4) 35%,rgba(0, 0, 0, .8) 50%)';
+    // }
 
     /* Set the width of the side navigation to 250px */
     openNav() {
@@ -70,10 +68,15 @@ class Splash extends React.Component {
                             <i>Full Stack Web Developer continuously improving <br></br>
                             to reach new heights</i>
                         </h3>
-                        <button type="button" onClick={this.changeScreen} className="btn btn-outline-light rounded-0">About Me</button>
+                        <a href="#about" className="btn btn-outline-light rounded-0">About Me</a>
+                        {/* <button type="button" onClick={this.changeScreen} className="btn btn-outline-light rounded-0">About Me</button> */}
                     </div>
                     <Scroll />
                 </header>
+                {/* Below the Fold */}
+                <div id ="about">
+                    <img src={this.props.mainImage}></img>
+                </div>
             </>
         )
     }
