@@ -6,24 +6,12 @@ import Menu from './Menu';
 function Splash({ image }) {
     const [mainImage, setMainImage] = useState(image);
 
-    const openNav = () => {
-        document.getElementById("mySidenav").style.width = "250px";
-        document.getElementById("main").style.marginLeft = "250px";
-        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-    }
-
-    const closeNav = () => {
-        document.getElementById("mySidenav").style.width = "0";
-        document.getElementById("main").style.marginLeft = "0";
-        document.body.style.backgroundColor = "white";
-    }
-
     return (
         <>
-            <Menu />
             <header id="main">
+                <Menu />
                 <img src={mainImage}></img>
-                <span id="menu" onClick={openNav}>&#9776;</span>
+
                 <div className="text">
                     <h1>Hi,<br></br>I'm Jimmy Zheng!</h1>
                     <h3 className="mt-2">
