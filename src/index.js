@@ -11,7 +11,7 @@ import Yosemite from './Yosemite.png';
 ReactDOM.render(
   <React.StrictMode>
     <Splash 
-      mainImage={Yosemite}
+      image={Yosemite}
     />
   </React.StrictMode>,
   document.getElementById('root')
