@@ -5,14 +5,11 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
 import 'font-awesome/css/font-awesome.min.css';
-import Splash from './Splash';
-import Yosemite from './Yosemite.png';
+import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Splash 
-      image={Yosemite}
-    />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
