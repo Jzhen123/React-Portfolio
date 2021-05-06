@@ -1,0 +1,8 @@
+#menu{
+    position: absolute;
+    font-size: 4vh;
+    color: white;
+    top: 1vh;
+    left: 1vw;
+    z-index: 2;
+}
