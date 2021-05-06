@@ -18,6 +18,7 @@ function Splash({ image }) {
                         <i>Full Stack Web Developer continuously improving <br></br> to reach new heights</i>
                     </h3>
                     <a href="#about" className="btn btn-outline-light rounded-0">About Me</a>
+                    <h1><br></br>Site is still under construction!</h1>
                 </div>
 
                 <Scroll />
