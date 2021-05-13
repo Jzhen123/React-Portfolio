@@ -8,7 +8,7 @@ function App() {
     return (
         <>
             <Splash image={Yosemite} />
-            <About image={Yosemite} />
+            {/* <About image={Yosemite} /> */}
         </>
     )
 }

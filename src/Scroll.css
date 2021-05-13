@@ -23,7 +23,7 @@
 	height: 0.315em;
 	border-right: 1px solid rgba(255,255,255,.8);
 	border-bottom: 1px solid rgba(255,255,255,.8);
-	margin: 0 0 0.125em 0.315em;
+	margin: 0 0 0.125em 0.3046em;
 	transform: rotate(45deg);
   animation: mouse-scroll 1s infinite;
 	animation-direction: alternate;

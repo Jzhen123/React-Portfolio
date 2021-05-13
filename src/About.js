@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react';
+// import React, { useState, useEffect } from 'react';
 
-function About({ image }) {
-    const [mainImage, setMainImage] = useState(image);
+// function About({ image }) {
+//     const [mainImage, setMainImage] = useState(image);
 
-    return (
-        <img src={mainImage}></img>
-    )
-}
+//     return (
+//         <img src={mainImage}></img>
+//     )
+// }
 
-export default About;
+// export default About;
